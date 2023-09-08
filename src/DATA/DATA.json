@@ -1,0 +1,22 @@
+{
+    "Revenue": {
+        "value": "$2.087",
+        "change": "10%",
+        "changeType": "dec"
+    },
+    "Orders": {
+        "value": 356,
+        "change": "20%",
+        "changeType": "inc"
+    },
+    "Dine in": {
+        "value": 200,
+        "change": "10%",
+        "changeType": "inc"
+    },
+    "Take away": {
+        "value": 135,
+        "change": "5%",
+        "changeType": "dec"
+    }
+}

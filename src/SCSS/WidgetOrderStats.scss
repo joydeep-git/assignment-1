@@ -1,0 +1,11 @@
+@import "./Variables.scss";
+
+.WidgetOrderStats{
+
+    @include ai-jc(center, center);
+    @include fd-fw(row, wrap);
+
+    background-color: #fffafa;
+    gap: 1.5rem;
+    margin: 3rem 0 3rem 0;
+}

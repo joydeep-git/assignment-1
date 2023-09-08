@@ -1,0 +1,91 @@
+@import "./Variables.scss";
+
+.OrderStat {
+
+    @include fd-fw(column, none);
+    @include ai-jc(center, none);
+    display: inline;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    gap: 1.5rem;
+    width: 13rem;
+    height: auto;
+    padding: 0.75rem;
+    box-shadow: 0px 0px 5px rgb(176, 176, 176);
+
+    .top-part {
+
+        @include fd-fw(row, none);
+        @include ai-jc(none, space-between);
+
+        width: 100%;
+        gap: 2rem;
+        margin-bottom: 0.4rem;
+
+        div {
+            @include ai-jc(center, center);
+
+            h3 {
+                color: #0f0f0f;
+                font-size: 1.25rem;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+        }
+
+        div {
+            @include fd-fw(row, none);
+            @include ai-jc(center, center);
+        }
+
+        .green {
+            color: rgb(0, 255, 0);
+        }
+
+        .red {
+            color: rgb(255, 0, 0);
+        }
+    }
+
+    .bottom-part {
+        @include fd-fw(row, none);
+        @include ai-jc(center, flex-start);
+        text-align: left;
+        margin-top: 0.4rem;
+
+        .logo {
+            font-size: 2.25rem;
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 1rem;
+            color: #ffffff;
+        }
+
+        .revenue{
+            background-color: #ffa200;
+        }
+
+        .orders{
+            background-color: greenyellow;
+        }
+
+        .dinein{
+            background-color: #ff4500;
+        }
+
+        .takeaway{
+            background-color: #ffd000;
+        }
+
+        p {
+            padding: 0;
+            flex: 1;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+    }
+
+}
